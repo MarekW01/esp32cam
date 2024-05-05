@@ -13,13 +13,13 @@ if exist .credentials\credentials.txt (
     )
 )
 
-REM Prompt for name
+REM Prompt for username
 set /p name="Enter username: "
 
-REM Prompt for lastName
+REM Prompt for remoteip
 set /p lastName="Enter remote IP address: "
 
-REM Prompt for lastlastName
+REM Prompt for localip
 set /p lastlastName="Enter local IP address: "
 
 REM Write to credentials.txt in .credentials folder
