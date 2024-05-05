@@ -29,6 +29,7 @@ On your server(Ubuntu): <br />
   pip install flask <br />
   pip install opencv-python  <br />
   sudo apt-get install libgl1-mesa-glx <br />
+  Open templates/index.html and change the ip address on the bottom from x to your server ip
   python3 program.py <br />
 
 On your computer(Windows): <br />
