@@ -15,21 +15,21 @@ You need to allow ports 8000 and 5000 on your server and port forwarding.
 How to allow port forwarding:
   sudo nano /etc/ssh/sshd_config
   in the file:
-    UsePAM yes
-    AllowTcpForwarding yes
-    GatewayPorts yes
-    X11Forwarding yes
-    PrintMotd no
-    PermitTunnel yes
+    UsePAM yes <br />
+    AllowTcpForwarding yes <br />
+    GatewayPorts yes <br />
+    X11Forwarding yes <br />
+    PrintMotd no <br />
+    PermitTunnel yes <br />
 
 On your server(Ubuntu):
-  sudo apt-get update
-  sudo apt install python3
-  sudo apt install python3-pip
-  pip install flask
-  pip install opencv-python 
-  sudo apt-get install libgl1-mesa-glx
-  python3 program.py
+  sudo apt-get update <br />
+  sudo apt install python3 <br />
+  sudo apt install python3-pip <br />
+  pip install flask <br />
+  pip install opencv-python  <br />
+  sudo apt-get install libgl1-mesa-glx <br />
+  python3 program.py <br />
 
 On your computer(Windows):
   Lauch connect.bat
