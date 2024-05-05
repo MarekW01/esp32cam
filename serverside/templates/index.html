@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Cmelaci</title>
+    <title>Esp32cam</title>
     <style>
         body {
             display: flex;
@@ -32,22 +32,22 @@
 </head>
 <body>
     <div class="text">
-        Vítejte na čmeláčí kameře. Zvolte rozlišení:
+        Welcome. choose resolution:
     </div>
     <div class="button-container">
-        <button class="ButHigh" onclick="redirectTohighCam()">Vysoké</button>
-        <button class="ButMed" onclick="redirectTomidCam()">Střední</button>
-        <button class="ButLow" onclick="redirectTolowCam()">Malé</button>
+        <button class="ButHigh" onclick="redirectTohighCam()">High</button>
+        <button class="ButMed" onclick="redirectTomidCam()">Medium</button>
+        <button class="ButLow" onclick="redirectTolowCam()">Low</button>
     </div>
     <script>
         function redirectTohighCam() {
-            window.location.href = 'http://x:5000/video_feed_high'; /*pocitac*/
+            window.location.href = 'http://x:5000/video_feed_high'; /* change x to your server ip*/
         }
         function redirectTomidCam() {
-            window.location.href = 'http://x:5000/video_feed_mid';  /*pocitac*/
+            window.location.href = 'http://x:5000/video_feed_mid'; /* change x to your server ip*/
         }
         function redirectTolowCam() {
-            window.location.href = 'http://x:5000/video_feed_low';  /*pocitac*/
+            window.location.href = 'http://x:5000/video_feed_low'; /* change x to your server ip*/
         }
     </script>
 </body>
